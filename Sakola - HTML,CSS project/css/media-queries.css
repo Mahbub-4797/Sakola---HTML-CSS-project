@@ -1,0 +1,169 @@
+.hidden{
+    display: none;
+}
+
+/* Mobile Devices (max-width: 480px) */
+
+@media (max-width: 480px) {
+
+    /* header section styling */
+    header > *{
+        margin: 0;
+    }
+    
+    .nav-items, .menu-btn{
+        display: none;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    /* hero section styling */
+
+    .hero-section{
+        height: auto;
+    }
+
+    .hero-container{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container, .aboutUs, .schools-container, .studing{
+        margin: 0 auto;
+        padding: 15px 10px;
+    }
+
+    .hero-image{
+        width: 100%;
+    }
+
+    .hero-text h1.heading{
+        width: 100%;
+    }
+    .hero-text p{
+        width: 100%;
+    }
+
+    .btn-group{
+        flex-direction: column;
+    }
+
+    .btn, .outline-btn{
+        width: 100%;
+    }
+
+    /* about-us section styling*/
+    .about-section{
+        flex-direction: column;
+    }
+
+    .about-image, .about-info{
+        width: 100%;
+    }
+
+    /* schools section styling */
+    .schools-container{
+        flex-direction: column;
+    }
+
+    .schools-info, .schools-image{
+        width: 100%;
+    }
+
+    /* studing section styling */
+    .studing{
+        flex-direction: column;
+    }
+
+    .course{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* newsletter section styling*/
+    .overlay{
+        padding: 20px;
+    }
+
+    /* footer section styling */
+    .footer .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-section{
+        margin: 15px 0;
+    }
+}
+
+
+/* Tables Devices (min-width: 481px and max-width: 768px) */
+
+@media (min-width: 481px) and (max-width: 768px) {
+      
+    /* header section styling */
+    header > *{
+        margin: 0;
+    }
+    
+    .nav-items{
+        display: none;
+    }
+
+    /* hero section styling */
+      .hero-container{
+        flex-direction: column;
+        height: auto;
+    }
+
+     .hero-text h1.heading{
+        width: 100%;
+    }
+
+     .hero-text p{
+        width: 100%;
+    }
+
+    .hero-image{
+        width: 100%;
+    }
+
+    /* about-us section styling */
+    .about-section{
+        flex-direction: column;
+    }
+
+    .about-image, .about-info{
+        width: 100%;
+    }
+
+    /* studing section styling */
+    .schools-container{
+        flex-direction: column;
+    }
+
+    .schools-info, .schools-image{
+        width: 100%;
+    }
+
+    /* studing section styling */
+    .studing{
+        flex-direction: column;
+    }
+
+    .course{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* footer section styling */
+
+    .footer .container{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+      .footer-section{
+        margin: 0px 20px 15px 0px;
+    }
+
+}
